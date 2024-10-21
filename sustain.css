@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Verdana, sans-serif;
+    margin: 0;
+header {
+    position: relative;
+} 
+  }
+  header, nav ul, #content-wrapper {
+    width: 90%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a {
+    color: #008000;
+  }  
+.logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+ 
+    header h1, nav ul {
+    padding-left: 50px;
+  }
+  nav {
+    background-color: #008000;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;           
+    margin: 0;            
+  }
+  nav ul li {
+    display: inline-block; 
+    margin-right: 20px;   
+  }
+  nav ul li a {
+    display: inline-block; 
+    padding: 1rem;        
+    text-decoration: none;
+    color: white;        
+    font-weight: bold;    
+  }
+  nav ul li a:hover {
+    background-color: black; 
+    color: #9ae39a;     
+  }
+  images/oven.jpg {
+    border: double 3px #333;
+    float: left;           
+    margin-top: 0.5rem;    
+    margin-right: 1rem;    
+    margin-bottom: 0.5rem;  
+  }
+  <section>
+          <h2>Rain Water</h2>
+          <a href="#"><img src="images/rain.jpg" width="200" height="133" alt="Rain water collector">
+            <p>Reduce water bills</p></a>
+
+          <h2>Compost</h2>
+          <a href="#"><img src="images/compost.jpg" width="200" height="133" alt="Compost bin">
+            <p>Make and save money</p></a>
+          
+          <h2>Solar Panels</h2>
+          <a href="#"><img src="images/solar.jpg" width="200" height="133" alt="Rooftop solar panels">
+            <p>Save money</p></a>
+        </section>
+        main section {
+            display: flex;            
+            flex-direction: column;   
+            gap: 1rem;               
+          }
+          main section {
+            display: flex;            
+            gap: 1rem;               
+          }
+          
+          main section div {
+            background-color: #e7ffe7;     
+            border: 1px solid #008000;     
+            border-radius: 10px;          
+            width: 100%;                  
+            margin-right: 1rem;            
+            text-align: center;
+          
+            main section div:last-child {
+                margin-right: 0;               
+              }
+              main section div h2 {
+                background-color: #008000;     
+                border-top-left-radius: 10px;   
+                border-top-right-radius: 10px;  
+                border-bottom-left-radius: 0;   
+                border-bottom-right-radius: 0;  
+                color: white;                   
+                margin-top: 0;                 
+                padding: 0.5rem;               
+              }
+              main section div img {
+                border: 3px double #333;   
+                display: block;           
+                margin: 0 auto;             
+                max-width: 100%;            
+              }
+              aside section {
+                background-color: white;        
+                margin-bottom: 1rem;           
+                border: 1px solid #008000;      
+                padding: 1rem;                 
+              }
+              #content-wrapper {
+                display: flex;         
+                flex-direction: row;    
+                gap: 1rem;            
+              }
+              #content-wrapper {
+                display: flex;         
+                flex-direction: row;    
+                gap: 1rem;              
+              }
+              
+              #content-wrapper aside {
+                background-color: #ccc;  
+                margin-right: 1rem;      
+                padding: 0.5rem;          
+                position: relative;       
+                top: 20px;               
+                order: -1;                
+                flex: 1;                
+              }
+              
+              #content-wrapper section {
+                flex: 2;                  
+              }
+              main aside h2 {
+                margin-top: 0;           
+                white-space: nowrap;     
+              }
+              #content-wrapper {
+                display: flex;            
+                gap: 1rem;                
+              }
+              
+              #content-wrapper aside {
+                order: -1;                
+                flex: 1;    
+              }
